@@ -21,22 +21,24 @@ app.get("/", async (req, res) => {
   }
 });
 
+const userRoutes = require("./routes/user");
 app.use("/api/v1", userRoutes);
 
-const PORT = process.env.PORT || 3000;
+module.exports = app;
+// const PORT = process.env.PORT || 3000;
 
-const startServer = async () => {
-  try {
-    await connectDB(process.env.MONGO_URI);
-    console.log("Database connected successfully.");
+// const startServer = async () => {
+//   try {
+//     await connectDB(process.env.MONGO_URI);
+//     console.log("Database connected successfully.");
 
-    app.listen(PORT, () =>
-      console.log(`Server running on http://localhost:${PORT}`)
-    );
-  } catch (error) {
-    console.error("Error starting the server:", error.message);
-    process.exit(1); 
-  }
-};
+//     app.listen(PORT, () =>
+//       console.log(`Server running on http://localhost:${PORT}`)
+//     );
+//   } catch (error) {
+//     console.error("Error starting the server:", error.message);
+//     process.exit(1); 
+//   }
+// };
 
-startServer();
+// startServer();
