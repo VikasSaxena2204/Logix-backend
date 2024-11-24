@@ -14,14 +14,14 @@ app.use(cors());
 
 app.get("/", async (req, res) => {
   try {
-    await connectDB(process.env.MONGO_URI);
+   await connectDB(process.env.MONGO_URI);
     res.status(200).send("Server is running and MongoDB is connected.");
   } catch (error) {
+    console.error("Root route error:", error.message);
     res.status(500).send("Server is running, but failed to connect to MongoDB.");
   }
 });
 
-const userRoutes = require("./routes/user");
 app.use("/api/v1", userRoutes);
 
 module.exports = app;
