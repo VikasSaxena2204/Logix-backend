@@ -1,16 +1,16 @@
 ## Logix: A MERN Stack Platform for Secure Authentication
 Logix is a responsive and dynamic application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). Designed to showcase robust authentication workflows, Logix features intuitive user registration, login functionality, and a modern dashboard interface.
-
+HELLO
 ## Features
 - User Registration: Allows users to create accounts seamlessly.
 - User Login: Enables secure access via credential-based authentication.
-- JWT Authentication: Uses JSON Web Tokens to secure user sessions effectively.
+- JWT Authentication: JSON Web Tokens secure user sessions effectively.
 - Responsive Design: Provides a smooth user experience across desktop, tablet, and mobile devices.
 
 ## Design and User Experience
 Logix combines functional usability with engaging design.
 
-- The front-end features a React-powered login page with responsive aesthetics, ensuring it looks great on any device.
+- The front end features a React-powered login page with responsive aesthetics, ensuring it looks great on any device.
 - Notifications and alerts are handled gracefully with Toastify, enhancing user interaction.
 
 ## Technologies at Work
