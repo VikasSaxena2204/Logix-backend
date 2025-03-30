@@ -31,12 +31,12 @@ Logix is more than a project; it’s a comprehensive resource for developers.
 
 - Learn MERN stack authentication best practices.
 Understand the implementation of JWTs in secure session management.
-- Get hands-on experience with frontend and backend integration in real-world scenarios.
+- Get hands-on experience with front-end and back-end integration in real-world scenarios.
 
 Whether you’re a beginner exploring the MERN stack or an experienced developer looking for a login/signup template to build upon, Logix offers invaluable insights.
 
 ## Conclusion
 
-Logix demonstrates how to combine security, efficiency, and usability in a single application. With its modular architecture and reusable components, this project stands as a practical and educational example of MERN stack authentication at its best.
+Logix combines security, efficiency, and usability in a single application. With its modular architecture and reusable components, this project stands as a practical and educational example of MERN stack authentication at its best.
 
 Explore, learn, and build upon Logix to create your next secure, full-stack application.
